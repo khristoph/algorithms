@@ -8,5 +8,5 @@ def staircase(n)
   end
 end
 
-n = gets.strip.to_i
-staircase(n)
+# n = gets.strip.to_i
+# staircase(n)
