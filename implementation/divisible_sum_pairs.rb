@@ -9,7 +9,7 @@ def divisibleSumPairs(n, k, ar)
 
         count += 1
       end
-    i += 1#add to i
+    i += 1
     end
     j += 1
     i = j+1
