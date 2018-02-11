@@ -8,7 +8,8 @@ def countingSort(arr)
   (0..100).each do |n|
     counts_hash[n]? count_list << counts_hash[n] : 0# Complete this function
   end
-  count_list
+   count_list
+
 end
 
 p countingSort(arr)
