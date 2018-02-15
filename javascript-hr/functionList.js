@@ -208,3 +208,41 @@ function countCharacter(str, char) {
 function getAllLetters(str) {
   return str.split("")
 }
+
+function getAllWords(str) {
+  if (str === ""){
+    return [];
+  } else{
+ return str.split(' ');
+  }
+}
+
+function countWords(str) {
+  if (str === ""){
+    return {}
+  }
+  var wordCount = {}
+  var arr = str.split(" ")
+  for (var x = 0; x < arr.length; x++){
+    if (wordCount.hasOwnProperty(arr[x])){
+      wordCount[arr[x]] += 1
+    } else{
+      wordCount[arr[x]] = 1
+    }
+  }
+  return wordCount
+}
+
+function removeFromBack(arr) {
+  arr.pop()
+  return arr
+}
+
+function or(expression1, expression2) {
+  if (expression1 === true){
+    return true
+  } else if (expression2 === true){
+    return true
+  }
+  return false
+}
